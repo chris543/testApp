@@ -5,7 +5,11 @@
 Binaries/
 Intermediate/
 Build/
-Saved/
+
 DerivedDataCache/
 Content/
 *.sdf
+#########################
+# save file #
+#########################
+Saved/
