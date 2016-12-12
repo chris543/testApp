@@ -1,0 +1,11 @@
+#########################
+# unreal generated file #
+#########################
+
+Binaries/
+Intermediate/
+Build/
+Saved/
+DerivedDataCache/
+Content/
+*.sdf
