@@ -23,3 +23,8 @@
 #define  SMB_MTDB       0xC0           	// (MT) data byte transmitted
 #define  SMB_MRDB       0x80           	// (MR) data byte received
 // End status vector definition
+#if (SPIS2_ENABLED == 1)
+#define SPIS2_CONFIG_SCK_PIN         2
+#define SPIS2_CONFIG_MOSI_PIN        3
+#define SPIS2_CONFIG_MISO_PIN        4
+#define SPIS2_CONFIG_IRQ_PRIORITY    APP_IRQ_PRIORITY_LOW
