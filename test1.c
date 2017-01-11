@@ -28,3 +28,17 @@
 #define SPIS2_CONFIG_MOSI_PIN        3
 #define SPIS2_CONFIG_MISO_PIN        4
 #define SPIS2_CONFIG_IRQ_PRIORITY    APP_IRQ_PRIORITY_LOW
+int RECV_PIN = 11;
+IRrecv irrecv(RECV_PIN);
+decode_results results;
+String IR_DATA;
+unsigned long codeValue; // The code value if not raw
+//RF
+const char *message = "aa Christmas";
+//adf
+int ID_decode = 0;
+
+const int ID_array[8] = {
+  A4, A5, 2, 3, 4, 5, 6, 7
+};
+int ID_data[8];
