@@ -1,0 +1,22 @@
+From 3aff06ce6d26eb1eb846212d2c7962bac7ae8466 Mon Sep 17 00:00:00 2001
+From: chris543 <atw543@gmail.com>
+Date: Wed, 22 Feb 2017 11:40:05 +0800
+Subject: [PATCH] tt
+
+---
+ rename.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/rename.c b/rename.c
+index 4020cb0..4a8ac26 100644
+--- a/rename.c
++++ b/rename.c
+@@ -6,3 +6,4 @@ man of steel
+ hello
+ ,,,.....
+     ble_our_service_on_ble_evt(&m_our_service, p_ble_evt);
++CB1n/source/CB1n_project/CB1n/pca10040/s132/iar/_build/
+\ No newline at end of file
+-- 
+2.10.2.windows.1
+
