@@ -27,7 +27,8 @@
 #define SPIS2_CONFIG_SCK_PIN         2
 #define SPIS2_CONFIG_MOSI_PIN        3
 #define SPIS2_CONFIG_MISO_PIN        4
-#define SPIS2_CONFIG_IRQ_PRIORITY    APP_IRQ_PRIORITY_LOW
+#define SPIS2_CONFIG_IRQ_PRIORITY    1244
+
 int RECV_PIN = 11;
 IRrecv irrecv(RECV_PIN);
 decode_results results;
@@ -39,6 +40,11 @@ const char *message = "aa Christmas";
 int ID_decode = 0;
 
 const int ID_array[8] = {
- 0,0,0,0,0,0,0,0
-};
+ 0,0,0,0,0,0,0,0,3,3,4,4,5,5}
 int ID_data[8];
+
+void main(){
+	for(;;){
+		
+	}
+}
