@@ -39,6 +39,6 @@ const char *message = "aa Christmas";
 int ID_decode = 0;
 
 const int ID_array[8] = {
-  A4, A5, 2, 3, 4, 5, 6, 7
+ 0,0,0,0,0,0,0,0
 };
 int ID_data[8];
