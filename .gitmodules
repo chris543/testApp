@@ -1,6 +1,3 @@
 [submodule "example"]
 	path = example
 	url = https://github.com/chris543/example
-[submodule "exa"]
-	path = exa
-	url = E:\\New folder (2)\\exa
