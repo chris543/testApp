@@ -6,6 +6,7 @@
 //-----------------------------------------------------------------------------
 
 ababasbasdfsd
+10:44
 #define  SYSCLK         24500000       	// System clock frequency in Hz
 
 #define  SMB_FREQUENCY  50000          	// Target SCL clock rate
