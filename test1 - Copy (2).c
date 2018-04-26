@@ -8,6 +8,7 @@
 1133
 1146
 1159
+1208
 #define  SYSCLK         24500000       	// System clock frequency in Hz
 
 #define  SMB_FREQUENCY  50000          	// Target SCL clock rate
