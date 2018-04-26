@@ -2,7 +2,9 @@
 
 using UnrealBuildTool;
 using System.Collections.Generic;
-0326
+<<<<<<< HEAD
+0331
+>>>>>>> 8f39d9928088b027ece77ab1bfd933a13888a9b7
 public class espTarget : TargetRules
 {
 	public espTarget(TargetInfo Target)
